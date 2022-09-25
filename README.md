@@ -2,4 +2,5 @@
 
 - 托管至微信开发者 - 代码管理
 
-<img src="static/images/wx.png"/>
+![image](https://github.com/ipaler/TuTool/blob/main/static/images/wx.png)
+

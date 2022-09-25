@@ -1,0 +1,38 @@
+<!--pages/tools/guoqing/guoqing.wxml-->
+<!-- 画布大小按需定制 这里我按照背景图的尺寸定的  -->
+<view style="margin-top:60px;margin-bottom:40px">
+  <image src="../../../static/images/guoqing/logo.png" height="50px" class="header"></image>
+</view>
+
+<view class="hot-biz" style="width: 90%;margin: 0 auto;border-radius: 10px;margin-bottom:30px;"> 
+  <view class="hot-top">
+    <view class="tx">
+      热门
+    </view>
+  </view>
+
+  <view class="hot-item-list">
+    <scroll-view scroll-x>
+      <view class="hot-biz-list" >
+        <view class="item" wx:for="{{list}}" wx:key="id">
+          <image bindtap='selectImg' data-id='{{item}}' data-src='../../../static/images/guoqing/hat{{item}}.png' src="../../../static/images/guoqing/hat{{item}}.png" mode='aspectFill'></image>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
+<view class="canvas-view">
+    <view style="width:200px;margin-left:20px;border: 2px solid #ffffff;">
+        <canvas canvas-id="shareImg" style="width: 200px;height: 200px;"></canvas>
+    </view>
+    
+    <!-- 预览区域  -->
+    <view class='canvas-view-right'>  
+        <button bindtap="getUserProfile" class="btn1">微信头像</button>
+        <button bindtap="getUploadfile" class="btn1">上传图片</button>
+        <button bindtap="save" class="btn1" disabled="{{!hasUserInfo}}">保存头像</button>
+        <button open-type="share" bindtap='handleShare' class="btn1">分享好友</button>
+    </view>
+
+</view>

@@ -1,0 +1,81 @@
+/**index.wxss**/
+
+.font_style {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_left {
+  height: 200rpx;
+  width: 48.5%;
+  background-color: orange;
+  border: 1px solid bisque;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px #888;
+}
+
+.top_right {
+  height: 200rpx;
+  width: 48.5%;
+  background-color: orange;
+  border: 1px solid bisque;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px #888;
+  margin-left: 3px;
+}
+
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #363b48;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.view1 {
+  height: 50vw;
+  width: 50%;
+  /* background-color: #00b6de; */
+}
+
+.view2 {
+  height: 100%;
+  /* background-color: orange; */
+}
+
+.view2 view {
+  height: 95%;
+  width: 95%;
+  background: blueviolet;
+  margin: 5% auto 0;
+  position: relative;
+}
+
+.font_left {
+  color: white;
+  font-weight: bold;
+  font-size: 40rpx;
+  position: absolute;
+  bottom: 15rpx;
+  left: 15rpx;
+}
+
+/** 图片居中 **/
+
+.image_center {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.metro {
+  transform: scale(0.95);
+}

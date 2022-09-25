@@ -1,0 +1,100 @@
+<view class="content">
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #f50727;' animation="{{animation1}}" bindtap="guoqingClick">
+        <text class='font_left'>国庆渐变头像</text>
+        <image src='https://img.geekdiy.net/1.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #00b6de;' animation="{{animation2}}" bindtap="constellationClick">
+        <text class='font_left'>绘画板</text>
+        <image src='https://img.geekdiy.net/1.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="content">
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #59f9ff;' animation="{{animation3}}" bindtap="danmuClick">
+        <text class='font_left'>手持弹幕</text>
+        <image src='https://img.geekdiy.net/1.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #f8cd36;' animation="{{animation4}}" bindtap="infoClick">
+        <text class='font_left'>运动小助手</text>
+        <image src='https://img.geekdiy.net/2.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="content">
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #CD919E;' animation="{{animation5}}" bindtap="infoClick">
+        <text class='font_left'>图片转文字</text>
+        <image src='https://img.geekdiy.net/2.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #9e7ac2;' animation="{{animation6}}" bindtap="infoClick">
+        <text class='font_left'>彩色昵称</text>
+        <image src='https://img.geekdiy.net/2.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="content">
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #BCEE68;' animation="{{animation7}}" bindtap="infoClick">
+        <text class='font_left'>每日壁纸</text>
+        <image src='https://img.geekdiy.net/2.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #CAE1FF;' animation="{{animation8}}" bindtap="qrcodeClick">
+        <text class='font_left'>二维码生成器</text>
+        <image src='https://img.geekdiy.net/1.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="content">
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #FFC125;' animation="{{animation9}}" bindtap="chrismasClick">
+        <text class='font_left'>圣诞头像</text>
+        <image src='https://img.geekdiy.net/1.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+  <view class='view1'>
+    <view class='view2'>
+      <view style='background: #F08080;' animation="{{animation10}}" bindtap="infoClick">
+        <text class='font_left'>emoji表情</text>
+        <image src='https://img.geekdiy.net/2.png' class='image_center'>
+        </image>
+      </view>
+    </view>
+  </view>
+</view>
